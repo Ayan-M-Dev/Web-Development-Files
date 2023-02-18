@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: azure;
 }
 
 h1{
@@ -7,28 +8,21 @@ h1{
 }
 
 .top-container {
-    background-color: #e4f9f5;
-    width: 200px;
-    height: 200px;
-    border: solid;
-    border-width: 10px;
-    padding: 20px;
+    text-align: center;
+    top: 100px;
 }
 
-.middle-container {
-    background-color: red;
-    border: solid;
-    border-width: 20px;
-    width: 200px;
-    height: 200px;
-    margin-left: 260px;
+.top-cloud {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 400px;
 }
 
-.bottom-container {
-    background-color: yellow;
-    border: solid;
-    border-width: 10px;
-    width: 200px;
-    height: 200px;
-    margin-left: 500px;
+.bottom-cloud {
+    position: absolute;
+}
+
+.mountain {
+    position: relative;
+    margin-top: 200px;
 }
