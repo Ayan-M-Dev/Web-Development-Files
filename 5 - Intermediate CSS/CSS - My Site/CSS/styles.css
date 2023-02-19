@@ -60,6 +60,12 @@ hr {
     margin-top: 70px;
 }
 
+.intro {
+    width: 75%;
+    margin: 100px auto 100px auto;
+    
+}
+
 .skill-1 {
     border-radius: 100%;
     max-width: 25%;
