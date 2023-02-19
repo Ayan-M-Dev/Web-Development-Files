@@ -1,7 +1,6 @@
 body {
     margin: 0;
     text-align: center;
-    background-color: azure;
     font-family: 'Merriweather', serif;
 
 }
@@ -27,16 +26,33 @@ h3 {
 }
 
 hr {
-    overflow: visible; /* For IE */
-    height: 30px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px 0 0 0;
-    border-radius: 20px;
+    border-style: none;
+    border-top-style: dotted;
+    border-color:grey;
+    border-width: 5px;
+    width: 3.5%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 30px;
+}
+
+a:hover {
+    color: #ffffff;
 }
 
 .top-container {
     top: 100px;
+    background-color: #eaf6f6;
 }
 
 .top-cloud {
@@ -61,8 +77,8 @@ hr {
 }
 
 .intro {
-    width: 75%;
-    margin: 100px auto 100px auto;
+    width: 25%;
+    margin: auto;
     
 }
 
@@ -86,3 +102,51 @@ hr {
     text-align: left;
     line-height: 2;
 }
+
+.contact-me {
+    line-height: 2;
+    width: 40%;
+    margin: 40px auto 60px;
+    
+}
+
+.btn {
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: linear-gradient(to bottom, #66BFBF, #66BFBF);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+}
+  
+.btn:hover {
+    background: #11999E;
+    background-image: -webkit-linear-gradient(top, #11999E, #11999E);
+    background-image: -moz-linear-gradient(top, #11999E, #11999E);
+    background-image: -ms-linear-gradient(top, #11999E, #11999E);
+    background-image: -o-linear-gradient(top, #11999E, #11999E);
+    background-image: linear-gradient(to bottom, #11999E, #11999E);
+    text-decoration: none;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    line-height: 2;
+    padding: 50px 0 20px;
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
