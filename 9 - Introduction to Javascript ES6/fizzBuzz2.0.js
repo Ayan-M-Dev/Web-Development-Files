@@ -17,7 +17,7 @@ while (count <= 100) {
         else {    
             output.push(count)
         }    
-        count = count + 1;
+        count = count + 1; //count++
         console.log(output);
     }
 
