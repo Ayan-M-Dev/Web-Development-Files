@@ -11,9 +11,13 @@ for (var i = 0; i < numberOfDrumButtons; i++) {
         switch (buttonInnerHTML) {
             
             case "w":
-                var tom1 = new Audio ('sounds/tom-1.mp3');
-                tom1.play();
+                function Audio (filelocation){
+                    var audio = new Audio(filelocation);
+                    audio.play();
+                    }
+                    Audio('sounds/tom-1.mp3');
             break;
+
 
             case "a":
                 var tom2 = new Audio ('sounds/tom-2.mp3');
